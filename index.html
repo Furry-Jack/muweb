@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>网址已停用 - 通知页面</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 600px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .icon {
+            font-size: 80px;
+            margin-bottom: 20px;
+            color: #6c757d;
+        }
+        
+        h1 {
+            color: #343a40;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+        
+        p {
+            color: #6c757d;
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+        
+        .highlight {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 25px 0;
+            border-left: 4px solid #6c757d;
+        }
+        
+        .contact {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #e9ecef;
+        }
+        
+        .contact a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 25px;
+            }
+            
+            .icon {
+                font-size: 60px;
+            }
+            
+            h1 {
+                font-size: 24px;
+            }
+            
+            p {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="icon">🔒</div>
+        <h1>此网址已停用</h1>
+        <p>尊敬的访问者，此网址已不再使用。感谢您以往的访问与支持。</p>
+        
+        <div class="highlight">
+            <p>如果您需要了解更多信息或有任何疑问，请通过以下方式联系我们：</p>
+        </div>
+        
+        <p>给您带来的不便，我们深表歉意。</p>
+        
+        <div class="contact">
+            <p>您也可以访问我们的 <a href="#">主页</a> 获取最新信息。</p>
+        </div>
+    </div>
+</body>
+</html>
